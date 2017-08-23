@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/example/adapter/FragmentTabAdapter.java" />
+        <ignore path="src/com/example/fragment/BaseFragment.java" />
+        <ignore path="src/com/example/fragment/ContactFragments.java" />
+        <ignore path="src/com/example/fragment/SlidingContentFragment.java" />
+        <ignore path="src/com/example/fragment/SlidingMenuFragment.java" />
+        <ignore path="src/com/example/fragment/Tab_Fragment1.java" />
+        <ignore path="src/com/example/fragment/Tab_Fragment2.java" />
+        <ignore path="src/com/example/fragment/Tab_Fragment3.java" />
+        <ignore path="src/com/example/myqq/Contact.java" />
+        <ignore path="src/com/example/myqq/Messagees.java" />
+        <ignore path="src/com/example/myqq/Sliding_Main.java" />
+    </issue>
+    <issue id="ValidFragment">
+        <ignore path="src/com/example/fragment/SlidingContentFragment.java" />
+        <ignore path="src/com/example/fragment/SlidingMenuFragment.java" />
+    </issue>
+</lint>

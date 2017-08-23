@@ -1,0 +1,330 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* \ => app\src\main\java\
+* .classpath => app\src\main\resources\.classpath
+* .project => app\src\main\resources\.project
+* .settings\org.eclipse.jdt.core.prefs => app\src\main\resources\.settings\org.eclipse.jdt.core.prefs
+* AndroidManifest.xml => app\src\main\resources\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* ic_launcher-web.png => app\src\main\resources\ic_launcher-web.png
+* lint.xml => app\src\main\resources\lint.xml
+* proguard-project.txt => app\src\main\resources\proguard-project.txt
+* project.properties => app\src\main\resources\project.properties
+* res\ => app\src\main\res\
+* res\anim\pop_enter.xml => app\src\main\resources\res\anim\pop_enter.xml
+* res\anim\pop_out.xml => app\src\main\resources\res\anim\pop_out.xml
+* res\drawable-hdpi\abc_ic_search.png => app\src\main\resources\res\drawable-hdpi\abc_ic_search.png
+* res\drawable-hdpi\asd.jpg => app\src\main\resources\res\drawable-hdpi\asd.jpg
+* res\drawable-hdpi\chatfrom_bg_normal.9.png => app\src\main\resources\res\drawable-hdpi\chatfrom_bg_normal.9.png
+* res\drawable-hdpi\chatfrom_bg_pressed.9.png => app\src\main\resources\res\drawable-hdpi\chatfrom_bg_pressed.9.png
+* res\drawable-hdpi\chatto_bg_normal.9.png => app\src\main\resources\res\drawable-hdpi\chatto_bg_normal.9.png
+* res\drawable-hdpi\chatto_bg_pressed.9.png => app\src\main\resources\res\drawable-hdpi\chatto_bg_pressed.9.png
+* res\drawable-hdpi\conversation_options_camera225.png => app\src\main\resources\res\drawable-hdpi\conversation_options_camera225.png
+* res\drawable-hdpi\conversation_options_multichat224.png => app\src\main\resources\res\drawable-hdpi\conversation_options_multichat224.png
+* res\drawable-hdpi\conversation_options_qr.png => app\src\main\resources\res\drawable-hdpi\conversation_options_qr.png
+* res\drawable-hdpi\conversation_options_qr221.png => app\src\main\resources\res\drawable-hdpi\conversation_options_qr221.png
+* res\drawable-hdpi\conversation_options_secretfile222.png => app\src\main\resources\res\drawable-hdpi\conversation_options_secretfile222.png
+* res\drawable-hdpi\conversation_options_share_photo223.png => app\src\main\resources\res\drawable-hdpi\conversation_options_share_photo223.png
+* res\drawable-hdpi\default_head.png => app\src\main\resources\res\drawable-hdpi\default_head.png
+* res\drawable-hdpi\del_icon_normal.png => app\src\main\resources\res\drawable-hdpi\del_icon_normal.png
+* res\drawable-hdpi\dot_selected.png => app\src\main\resources\res\drawable-hdpi\dot_selected.png
+* res\drawable-hdpi\dot_unselected.png => app\src\main\resources\res\drawable-hdpi\dot_unselected.png
+* res\drawable-hdpi\faceicon.png => app\src\main\resources\res\drawable-hdpi\faceicon.png
+* res\drawable-hdpi\iconttmenu.png => app\src\main\resources\res\drawable-hdpi\iconttmenu.png
+* res\drawable-hdpi\item_point_bg.png => app\src\main\resources\res\drawable-hdpi\item_point_bg.png
+* res\drawable-hdpi\loading_01.png => app\src\main\resources\res\drawable-hdpi\loading_01.png
+* res\drawable-hdpi\loading_02.png => app\src\main\resources\res\drawable-hdpi\loading_02.png
+* res\drawable-hdpi\loading_03.png => app\src\main\resources\res\drawable-hdpi\loading_03.png
+* res\drawable-hdpi\loading_04.png => app\src\main\resources\res\drawable-hdpi\loading_04.png
+* res\drawable-hdpi\loading_05.png => app\src\main\resources\res\drawable-hdpi\loading_05.png
+* res\drawable-hdpi\loading_06.png => app\src\main\resources\res\drawable-hdpi\loading_06.png
+* res\drawable-hdpi\loading_07.png => app\src\main\resources\res\drawable-hdpi\loading_07.png
+* res\drawable-hdpi\loading_08.png => app\src\main\resources\res\drawable-hdpi\loading_08.png
+* res\drawable-hdpi\loading_09.png => app\src\main\resources\res\drawable-hdpi\loading_09.png
+* res\drawable-hdpi\loading_10.png => app\src\main\resources\res\drawable-hdpi\loading_10.png
+* res\drawable-hdpi\loading_11.png => app\src\main\resources\res\drawable-hdpi\loading_11.png
+* res\drawable-hdpi\loading_12.png => app\src\main\resources\res\drawable-hdpi\loading_12.png
+* res\drawable-hdpi\login_btn_1.png => app\src\main\resources\res\drawable-hdpi\login_btn_1.png
+* res\drawable-hdpi\login_btn_2.png => app\src\main\resources\res\drawable-hdpi\login_btn_2.png
+* res\drawable-hdpi\login_edittext.png => app\src\main\resources\res\drawable-hdpi\login_edittext.png
+* res\drawable-hdpi\mypicture.png => app\src\main\resources\res\drawable-hdpi\mypicture.png
+* res\drawable-hdpi\online_dotsselect.png => app\src\main\resources\res\drawable-hdpi\online_dotsselect.png
+* res\drawable-hdpi\online_dotsunselect.png => app\src\main\resources\res\drawable-hdpi\online_dotsunselect.png
+* res\drawable-hdpi\qqcommy.png => app\src\main\resources\res\drawable-hdpi\qqcommy.png
+* res\drawable-hdpi\skin_tab_icon_contact_normal.png => app\src\main\resources\res\drawable-hdpi\skin_tab_icon_contact_normal.png
+* res\drawable-hdpi\skin_tab_icon_contact_selected.png => app\src\main\resources\res\drawable-hdpi\skin_tab_icon_contact_selected.png
+* res\drawable-hdpi\skin_tab_icon_conversation_normal.png => app\src\main\resources\res\drawable-hdpi\skin_tab_icon_conversation_normal.png
+* res\drawable-hdpi\skin_tab_icon_conversation_selected.png => app\src\main\resources\res\drawable-hdpi\skin_tab_icon_conversation_selected.png
+* res\drawable-hdpi\skin_tab_icon_plugin_normal.png => app\src\main\resources\res\drawable-hdpi\skin_tab_icon_plugin_normal.png
+* res\drawable-hdpi\skin_tab_icon_plugin_selected.png => app\src\main\resources\res\drawable-hdpi\skin_tab_icon_plugin_selected.png
+* res\drawable-hdpi\tab_msg_1.png => app\src\main\resources\res\drawable-hdpi\tab_msg_1.png
+* res\drawable-hdpi\tab_msg_2.png => app\src\main\resources\res\drawable-hdpi\tab_msg_2.png
+* res\drawable-hdpi\tab_per_1.png => app\src\main\resources\res\drawable-hdpi\tab_per_1.png
+* res\drawable-hdpi\tab_per_2.png => app\src\main\resources\res\drawable-hdpi\tab_per_2.png
+* res\drawable-hdpi\tab_star_1.png => app\src\main\resources\res\drawable-hdpi\tab_star_1.png
+* res\drawable-hdpi\tab_star_2.png => app\src\main\resources\res\drawable-hdpi\tab_star_2.png
+* res\drawable-hdpi\wechat_icon.png => app\src\main\resources\res\drawable-hdpi\wechat_icon.png
+* res\drawable-ldpi\_welcome.png => app\src\main\resources\res\drawable-ldpi\_welcome.png
+* res\drawable-ldpi\acm_inputbox.9.png => app\src\main\resources\res\drawable-ldpi\acm_inputbox.9.png
+* res\drawable-ldpi\add_contacts_look_for_similarity.png => app\src\main\resources\res\drawable-ldpi\add_contacts_look_for_similarity.png
+* res\drawable-ldpi\bar_light_pressed.png => app\src\main\resources\res\drawable-ldpi\bar_light_pressed.png
+* res\drawable-ldpi\boss_unipay_icon_back.png => app\src\main\resources\res\drawable-ldpi\boss_unipay_icon_back.png
+* res\drawable-ldpi\btn_bottom_last_normal.9.png => app\src\main\resources\res\drawable-ldpi\btn_bottom_last_normal.9.png
+* res\drawable-ldpi\btn_bottom_last_pressed.9.png => app\src\main\resources\res\drawable-ldpi\btn_bottom_last_pressed.9.png
+* res\drawable-ldpi\button_details_gohome.png => app\src\main\resources\res\drawable-ldpi\button_details_gohome.png
+* res\drawable-ldpi\channel_qq.png => app\src\main\resources\res\drawable-ldpi\channel_qq.png
+* res\drawable-ldpi\chat_tool_photo.png => app\src\main\resources\res\drawable-ldpi\chat_tool_photo.png
+* res\drawable-ldpi\checkbox_normal.png => app\src\main\resources\res\drawable-ldpi\checkbox_normal.png
+* res\drawable-ldpi\checkbox_null.png => app\src\main\resources\res\drawable-ldpi\checkbox_null.png
+* res\drawable-ldpi\connect.png => app\src\main\resources\res\drawable-ldpi\connect.png
+* res\drawable-ldpi\contact_list_buddy_item_bg.9.png => app\src\main\resources\res\drawable-ldpi\contact_list_buddy_item_bg.9.png
+* res\drawable-ldpi\conversation_options_camera.png => app\src\main\resources\res\drawable-ldpi\conversation_options_camera.png
+* res\drawable-ldpi\conversation_options_multichat.png => app\src\main\resources\res\drawable-ldpi\conversation_options_multichat.png
+* res\drawable-ldpi\conversation_options_qr.png => app\src\main\resources\res\drawable-ldpi\conversation_options_qr.png
+* res\drawable-ldpi\conversation_options_secretfile.png => app\src\main\resources\res\drawable-ldpi\conversation_options_secretfile.png
+* res\drawable-ldpi\conversation_options_share_photo.png => app\src\main\resources\res\drawable-ldpi\conversation_options_share_photo.png
+* res\drawable-ldpi\disconnect.png => app\src\main\resources\res\drawable-ldpi\disconnect.png
+* res\drawable-ldpi\emotionstore_progresscancelbtn.png => app\src\main\resources\res\drawable-ldpi\emotionstore_progresscancelbtn.png
+* res\drawable-ldpi\guide_1.png => app\src\main\resources\res\drawable-ldpi\guide_1.png
+* res\drawable-ldpi\guide_2.png => app\src\main\resources\res\drawable-ldpi\guide_2.png
+* res\drawable-ldpi\guide_3.png => app\src\main\resources\res\drawable-ldpi\guide_3.png
+* res\drawable-ldpi\h001.png => app\src\main\resources\res\drawable-ldpi\h001.png
+* res\drawable-ldpi\ic_launcher.png => app\src\main\resources\res\drawable-ldpi\ic_launcher.png
+* res\drawable-ldpi\icon.png => app\src\main\resources\res\drawable-ldpi\icon.png
+* res\drawable-ldpi\icon_1.png => app\src\main\resources\res\drawable-ldpi\icon_1.png
+* res\drawable-ldpi\icon_2.png => app\src\main\resources\res\drawable-ldpi\icon_2.png
+* res\drawable-ldpi\icon_3.png => app\src\main\resources\res\drawable-ldpi\icon_3.png
+* res\drawable-ldpi\icon_4.png => app\src\main\resources\res\drawable-ldpi\icon_4.png
+* res\drawable-ldpi\icon_5.png => app\src\main\resources\res\drawable-ldpi\icon_5.png
+* res\drawable-ldpi\icon_6.png => app\src\main\resources\res\drawable-ldpi\icon_6.png
+* res\drawable-ldpi\icon_7.png => app\src\main\resources\res\drawable-ldpi\icon_7.png
+* res\drawable-ldpi\icon_8.png => app\src\main\resources\res\drawable-ldpi\icon_8.png
+* res\drawable-ldpi\indicator_expanded.9.png => app\src\main\resources\res\drawable-ldpi\indicator_expanded.9.png
+* res\drawable-ldpi\indicator_unexpanded.9.png => app\src\main\resources\res\drawable-ldpi\indicator_unexpanded.9.png
+* res\drawable-ldpi\ipaddress_bg.9.png => app\src\main\resources\res\drawable-ldpi\ipaddress_bg.9.png
+* res\drawable-ldpi\kangyikun.png => app\src\main\resources\res\drawable-ldpi\kangyikun.png
+* res\drawable-ldpi\lbs_popup_bg.9.png => app\src\main\resources\res\drawable-ldpi\lbs_popup_bg.9.png
+* res\drawable-ldpi\list_conversation_press.9.png => app\src\main\resources\res\drawable-ldpi\list_conversation_press.9.png
+* res\drawable-ldpi\login_background.png => app\src\main\resources\res\drawable-ldpi\login_background.png
+* res\drawable-ldpi\login_default_avatar.png => app\src\main\resources\res\drawable-ldpi\login_default_avatar.png
+* res\drawable-ldpi\login_head.png => app\src\main\resources\res\drawable-ldpi\login_head.png
+* res\drawable-ldpi\menu_title_bg.jpg => app\src\main\resources\res\drawable-ldpi\menu_title_bg.jpg
+* res\drawable-ldpi\next.png => app\src\main\resources\res\drawable-ldpi\next.png
+* res\drawable-ldpi\no_chat.png => app\src\main\resources\res\drawable-ldpi\no_chat.png
+* res\drawable-ldpi\notification.png => app\src\main\resources\res\drawable-ldpi\notification.png
+* res\drawable-ldpi\number_base.png => app\src\main\resources\res\drawable-ldpi\number_base.png
+* res\drawable-ldpi\orcode.png => app\src\main\resources\res\drawable-ldpi\orcode.png
+* res\drawable-ldpi\page1.png => app\src\main\resources\res\drawable-ldpi\page1.png
+* res\drawable-ldpi\page2.png => app\src\main\resources\res\drawable-ldpi\page2.png
+* res\drawable-ldpi\page3.png => app\src\main\resources\res\drawable-ldpi\page3.png
+* res\drawable-ldpi\qav_audio_lock_btn_p.png => app\src\main\resources\res\drawable-ldpi\qav_audio_lock_btn_p.png
+* res\drawable-ldpi\qb_down.png => app\src\main\resources\res\drawable-ldpi\qb_down.png
+* res\drawable-ldpi\qb_right.png => app\src\main\resources\res\drawable-ldpi\qb_right.png
+* res\drawable-ldpi\qb_scan_btn_flash_disable.png => app\src\main\resources\res\drawable-ldpi\qb_scan_btn_flash_disable.png
+* res\drawable-ldpi\qb_scan_btn_flash_down.png => app\src\main\resources\res\drawable-ldpi\qb_scan_btn_flash_down.png
+* res\drawable-ldpi\qb_scan_btn_flash_nor.png => app\src\main\resources\res\drawable-ldpi\qb_scan_btn_flash_nor.png
+* res\drawable-ldpi\qb_scan_btn_myqrcode_down.png => app\src\main\resources\res\drawable-ldpi\qb_scan_btn_myqrcode_down.png
+* res\drawable-ldpi\qb_scan_btn_myqrcode_nor.png => app\src\main\resources\res\drawable-ldpi\qb_scan_btn_myqrcode_nor.png
+* res\drawable-ldpi\qb_scan_btn_photo_down.png => app\src\main\resources\res\drawable-ldpi\qb_scan_btn_photo_down.png
+* res\drawable-ldpi\qb_scan_btn_photo_nor.png => app\src\main\resources\res\drawable-ldpi\qb_scan_btn_photo_nor.png
+* res\drawable-ldpi\qb_tenpay_loading_back_bg.png => app\src\main\resources\res\drawable-ldpi\qb_tenpay_loading_back_bg.png
+* res\drawable-ldpi\qfav_list_thumb_qzone.png => app\src\main\resources\res\drawable-ldpi\qfav_list_thumb_qzone.png
+* res\drawable-ldpi\qfile_dataline_pc_fa.png => app\src\main\resources\res\drawable-ldpi\qfile_dataline_pc_fa.png
+* res\drawable-ldpi\qq_contact_list_add_bt_common.png => app\src\main\resources\res\drawable-ldpi\qq_contact_list_add_bt_common.png
+* res\drawable-ldpi\qq_contact_list_add_bt_pressed.png => app\src\main\resources\res\drawable-ldpi\qq_contact_list_add_bt_pressed.png
+* res\drawable-ldpi\qq_contact_list_discussion_entry_icon.png => app\src\main\resources\res\drawable-ldpi\qq_contact_list_discussion_entry_icon.png
+* res\drawable-ldpi\qq_contact_list_friend_entry_icon.png => app\src\main\resources\res\drawable-ldpi\qq_contact_list_friend_entry_icon.png
+* res\drawable-ldpi\qq_contact_list_pbaccount_entry_icon.png => app\src\main\resources\res\drawable-ldpi\qq_contact_list_pbaccount_entry_icon.png
+* res\drawable-ldpi\qq_contact_list_phone_enter_icon.png => app\src\main\resources\res\drawable-ldpi\qq_contact_list_phone_enter_icon.png
+* res\drawable-ldpi\qq_contact_list_troop_entry_icon.png => app\src\main\resources\res\drawable-ldpi\qq_contact_list_troop_entry_icon.png
+* res\drawable-ldpi\qq_conversation_icon_calllist_empty.png => app\src\main\resources\res\drawable-ldpi\qq_conversation_icon_calllist_empty.png
+* res\drawable-ldpi\qq_leba_list_seek_feeds.png => app\src\main\resources\res\drawable-ldpi\qq_leba_list_seek_feeds.png
+* res\drawable-ldpi\qq_leba_list_seek_folder.png => app\src\main\resources\res\drawable-ldpi\qq_leba_list_seek_folder.png
+* res\drawable-ldpi\qq_leba_list_seek_gamecenter.png => app\src\main\resources\res\drawable-ldpi\qq_leba_list_seek_gamecenter.png
+* res\drawable-ldpi\qq_leba_list_seek_individuation.png => app\src\main\resources\res\drawable-ldpi\qq_leba_list_seek_individuation.png
+* res\drawable-ldpi\qq_leba_list_seek_myfeeds.png => app\src\main\resources\res\drawable-ldpi\qq_leba_list_seek_myfeeds.png
+* res\drawable-ldpi\qq_leba_list_seek_neighbour.png => app\src\main\resources\res\drawable-ldpi\qq_leba_list_seek_neighbour.png
+* res\drawable-ldpi\qq_leba_list_seek_saosao.png => app\src\main\resources\res\drawable-ldpi\qq_leba_list_seek_saosao.png
+* res\drawable-ldpi\qq_setting_qianbao.png => app\src\main\resources\res\drawable-ldpi\qq_setting_qianbao.png
+* res\drawable-ldpi\qq_setting_setting.png => app\src\main\resources\res\drawable-ldpi\qq_setting_setting.png
+* res\drawable-ldpi\qq_setting_shoucang.png => app\src\main\resources\res\drawable-ldpi\qq_setting_shoucang.png
+* res\drawable-ldpi\qq_setting_xiangce.png => app\src\main\resources\res\drawable-ldpi\qq_setting_xiangce.png
+* res\drawable-ldpi\qrcode_scan_line.png => app\src\main\resources\res\drawable-ldpi\qrcode_scan_line.png
+* res\drawable-ldpi\qvip_pay_wallet_icon_arrow_right_normal.png => app\src\main\resources\res\drawable-ldpi\qvip_pay_wallet_icon_arrow_right_normal.png
+* res\drawable-ldpi\qvip_profile_vip_annual_7.png => app\src\main\resources\res\drawable-ldpi\qvip_profile_vip_annual_7.png
+* res\drawable-ldpi\qzone_feed_hotbar_icon_star.png => app\src\main\resources\res\drawable-ldpi\qzone_feed_hotbar_icon_star.png
+* res\drawable-ldpi\qzone_icon_action_sheet_qq.png => app\src\main\resources\res\drawable-ldpi\qzone_icon_action_sheet_qq.png
+* res\drawable-ldpi\qzone_list_icon_arrow.png => app\src\main\resources\res\drawable-ldpi\qzone_list_icon_arrow.png
+* res\drawable-ldpi\refresh_arrow.png => app\src\main\resources\res\drawable-ldpi\refresh_arrow.png
+* res\drawable-ldpi\refresh_arrow_2.png => app\src\main\resources\res\drawable-ldpi\refresh_arrow_2.png
+* res\drawable-ldpi\search.png => app\src\main\resources\res\drawable-ldpi\search.png
+* res\drawable-ldpi\skin_about_brand.png => app\src\main\resources\res\drawable-ldpi\skin_about_brand.png
+* res\drawable-ldpi\skin_conversation_title_right_btn.png => app\src\main\resources\res\drawable-ldpi\skin_conversation_title_right_btn.png
+* res\drawable-ldpi\skin_conversation_title_right_btn_selected.png => app\src\main\resources\res\drawable-ldpi\skin_conversation_title_right_btn_selected.png
+* res\drawable-ldpi\skin_indicator_expanded.9.png => app\src\main\resources\res\drawable-ldpi\skin_indicator_expanded.9.png
+* res\drawable-ldpi\skin_indicator_unexpanded.9.png => app\src\main\resources\res\drawable-ldpi\skin_indicator_unexpanded.9.png
+* res\drawable-ldpi\skin_qzone_title_progress.png => app\src\main\resources\res\drawable-ldpi\skin_qzone_title_progress.png
+* res\drawable-ldpi\skin_tab_icon_plugin_normal.png => app\src\main\resources\res\drawable-ldpi\skin_tab_icon_plugin_normal.png
+* res\drawable-ldpi\skin_tab_icon_plugin_selected.png => app\src\main\resources\res\drawable-ldpi\skin_tab_icon_plugin_selected.png
+* res\drawable-ldpi\skin_tab_icon_setup_normal.png => app\src\main\resources\res\drawable-ldpi\skin_tab_icon_setup_normal.png
+* res\drawable-ldpi\skin_tab_icon_setup_selected.png => app\src\main\resources\res\drawable-ldpi\skin_tab_icon_setup_selected.png
+* res\drawable-ldpi\sliding_menu_head.png => app\src\main\resources\res\drawable-ldpi\sliding_menu_head.png
+* res\drawable-ldpi\star.png => app\src\main\resources\res\drawable-ldpi\star.png
+* res\drawable-ldpi\status_online.png => app\src\main\resources\res\drawable-ldpi\status_online.png
+* res\drawable-ldpi\status_online_btn.png => app\src\main\resources\res\drawable-ldpi\status_online_btn.png
+* res\drawable-ldpi\terminal_icon_ios.png => app\src\main\resources\res\drawable-ldpi\terminal_icon_ios.png
+* res\drawable-ldpi\terminal_icon_ios_pressed.png => app\src\main\resources\res\drawable-ldpi\terminal_icon_ios_pressed.png
+* res\drawable-ldpi\terminal_icon_mobile.png => app\src\main\resources\res\drawable-ldpi\terminal_icon_mobile.png
+* res\drawable-ldpi\terminal_icon_pc.png => app\src\main\resources\res\drawable-ldpi\terminal_icon_pc.png
+* res\drawable-ldpi\themeone.jpg => app\src\main\resources\res\drawable-ldpi\themeone.jpg
+* res\drawable-ldpi\themetwo.jpg => app\src\main\resources\res\drawable-ldpi\themetwo.jpg
+* res\drawable-ldpi\threadaa.JPG => app\src\main\resources\res\drawable-ldpi\threadaa.JPG
+* res\drawable-ldpi\threadbb.JPG => app\src\main\resources\res\drawable-ldpi\threadbb.JPG
+* res\drawable-ldpi\threadcc.JPG => app\src\main\resources\res\drawable-ldpi\threadcc.JPG
+* res\drawable-ldpi\threads2a.png => app\src\main\resources\res\drawable-ldpi\threads2a.png
+* res\drawable-ldpi\threadsa.png => app\src\main\resources\res\drawable-ldpi\threadsa.png
+* res\drawable-ldpi\threadsb.png => app\src\main\resources\res\drawable-ldpi\threadsb.png
+* res\drawable-ldpi\threadsc.png => app\src\main\resources\res\drawable-ldpi\threadsc.png
+* res\drawable-ldpi\threadse.png => app\src\main\resources\res\drawable-ldpi\threadse.png
+* res\drawable-ldpi\toggle_btn1.png => app\src\main\resources\res\drawable-ldpi\toggle_btn1.png
+* res\drawable-ldpi\toggle_btn2.png => app\src\main\resources\res\drawable-ldpi\toggle_btn2.png
+* res\drawable-ldpi\toolbar.png => app\src\main\resources\res\drawable-ldpi\toolbar.png
+* res\drawable-ldpi\toolbar_right.png => app\src\main\resources\res\drawable-ldpi\toolbar_right.png
+* res\drawable-ldpi\wifi_state0.png => app\src\main\resources\res\drawable-ldpi\wifi_state0.png
+* res\drawable-ldpi\wifi_state4.png => app\src\main\resources\res\drawable-ldpi\wifi_state4.png
+* res\drawable-ldpi\zebra_ic_album.png => app\src\main\resources\res\drawable-ldpi\zebra_ic_album.png
+* res\drawable-ldpi\zebra_ic_bt_normal.png => app\src\main\resources\res\drawable-ldpi\zebra_ic_bt_normal.png
+* res\drawable-mdpi\conversation_options_qr.png => app\src\main\resources\res\drawable-mdpi\conversation_options_qr.png
+* res\drawable-mdpi\ic_launcher.png => app\src\main\resources\res\drawable-mdpi\ic_launcher.png
+* res\drawable-mdpi\iconttmenu.png => app\src\main\resources\res\drawable-mdpi\iconttmenu.png
+* res\drawable-mdpi\transback1.jpg => app\src\main\resources\res\drawable-mdpi\transback1.jpg
+* res\drawable-xhdpi\add.png => app\src\main\resources\res\drawable-xhdpi\add.png
+* res\drawable-xhdpi\default_avatar.png => app\src\main\resources\res\drawable-xhdpi\default_avatar.png
+* res\drawable-xhdpi\groups_icon.png => app\src\main\resources\res\drawable-xhdpi\groups_icon.png
+* res\drawable-xhdpi\ic_launcher.png => app\src\main\resources\res\drawable-xhdpi\ic_launcher.png
+* res\drawable-xxhdpi\ic_launcher.png => app\src\main\resources\res\drawable-xxhdpi\ic_launcher.png
+* res\drawable-xxhdpi\toggle_btn1.png => app\src\main\resources\res\drawable-xxhdpi\toggle_btn1.png
+* res\drawable-xxhdpi\toggle_btn2.png => app\src\main\resources\res\drawable-xxhdpi\toggle_btn2.png
+* res\drawable\btn_toggle.xml => app\src\main\resources\res\drawable\btn_toggle.xml
+* res\drawable\fengrui.png => app\src\main\resources\res\drawable\fengrui.png
+* res\drawable\first_tab.xml => app\src\main\resources\res\drawable\first_tab.xml
+* res\drawable\hongbao.png => app\src\main\resources\res\drawable\hongbao.png
+* res\drawable\lixiang.png => app\src\main\resources\res\drawable\lixiang.png
+* res\drawable\login_bt1.xml => app\src\main\resources\res\drawable\login_bt1.xml
+* res\drawable\login_bt2.xml => app\src\main\resources\res\drawable\login_bt2.xml
+* res\drawable\login_bt3.xml => app\src\main\resources\res\drawable\login_bt3.xml
+* res\drawable\select_color.xml => app\src\main\resources\res\drawable\select_color.xml
+* res\drawable\shape.xml => app\src\main\resources\res\drawable\shape.xml
+* res\drawable\siweijie.png => app\src\main\resources\res\drawable\siweijie.png
+* res\drawable\sliding_menu_button.xml => app\src\main\resources\res\drawable\sliding_menu_button.xml
+* res\drawable\slidingmenu_table.xml => app\src\main\resources\res\drawable\slidingmenu_table.xml
+* res\drawable\tab_onecolor.xml => app\src\main\resources\res\drawable\tab_onecolor.xml
+* res\drawable\tab_twocolor.xml => app\src\main\resources\res\drawable\tab_twocolor.xml
+* res\drawable\third_tab.xml => app\src\main\resources\res\drawable\third_tab.xml
+* res\drawable\two_tab.xml => app\src\main\resources\res\drawable\two_tab.xml
+* res\drawable\xhangyang.png => app\src\main\resources\res\drawable\xhangyang.png
+* res\drawable\zhanghao.png => app\src\main\resources\res\drawable\zhanghao.png
+* res\layout\activity_contact.xml => app\src\main\resources\res\layout\activity_contact.xml
+* res\layout\activity_draggable_list_view.xml => app\src\main\resources\res\layout\activity_draggable_list_view.xml
+* res\layout\activity_dynamic.xml => app\src\main\resources\res\layout\activity_dynamic.xml
+* res\layout\activity_guidance.xml => app\src\main\resources\res\layout\activity_guidance.xml
+* res\layout\activity_login.xml => app\src\main\resources\res\layout\activity_login.xml
+* res\layout\activity_main.xml => app\src\main\resources\res\layout\activity_main.xml
+* res\layout\activity_messagees.xml => app\src\main\resources\res\layout\activity_messagees.xml
+* res\layout\activity_sliding__main.xml => app\src\main\resources\res\layout\activity_sliding__main.xml
+* res\layout\activity_space_image_detail.xml => app\src\main\resources\res\layout\activity_space_image_detail.xml
+* res\layout\activity_tab.xml => app\src\main\resources\res\layout\activity_tab.xml
+* res\layout\activity_tabhost.xml => app\src\main\resources\res\layout\activity_tabhost.xml
+* res\layout\activity_threadsa.xml => app\src\main\resources\res\layout\activity_threadsa.xml
+* res\layout\activity_threadsb.xml => app\src\main\resources\res\layout\activity_threadsb.xml
+* res\layout\activity_threadsc.xml => app\src\main\resources\res\layout\activity_threadsc.xml
+* res\layout\activity_trands.xml => app\src\main\resources\res\layout\activity_trands.xml
+* res\layout\contactfragment.xml => app\src\main\resources\res\layout\contactfragment.xml
+* res\layout\for_expandalistview_main_childes.xml => app\src\main\resources\res\layout\for_expandalistview_main_childes.xml
+* res\layout\for_expandalistview_maintwo.xml => app\src\main\resources\res\layout\for_expandalistview_maintwo.xml
+* res\layout\guidance_layout1.xml => app\src\main\resources\res\layout\guidance_layout1.xml
+* res\layout\guidance_layout2.xml => app\src\main\resources\res\layout\guidance_layout2.xml
+* res\layout\guidance_layout3.xml => app\src\main\resources\res\layout\guidance_layout3.xml
+* res\layout\list_item.xml => app\src\main\resources\res\layout\list_item.xml
+* res\layout\pop.xml => app\src\main\resources\res\layout\pop.xml
+* res\layout\search_dialog.xml => app\src\main\resources\res\layout\search_dialog.xml
+* res\layout\sliding_content_tab1.xml => app\src\main\resources\res\layout\sliding_content_tab1.xml
+* res\layout\sliding_content_tab2.xml => app\src\main\resources\res\layout\sliding_content_tab2.xml
+* res\layout\sliding_content_tab3.xml => app\src\main\resources\res\layout\sliding_content_tab3.xml
+* res\layout\sliding_menu_bootom.xml => app\src\main\resources\res\layout\sliding_menu_bootom.xml
+* res\layout\sliding_menu_firstfragment.xml => app\src\main\resources\res\layout\sliding_menu_firstfragment.xml
+* res\layout\sliding_menu_top.xml => app\src\main\resources\res\layout\sliding_menu_top.xml
+* res\layout\sliding_menue_fragment.xml => app\src\main\resources\res\layout\sliding_menue_fragment.xml
+* res\layout\slidingcontentfragments.xml => app\src\main\resources\res\layout\slidingcontentfragments.xml
+* res\layout\tabcard_layout.xml => app\src\main\resources\res\layout\tabcard_layout.xml
+* res\layout\tabpopupwindow.xml => app\src\main\resources\res\layout\tabpopupwindow.xml
+* res\menu\contact.xml => app\src\main\resources\res\menu\contact.xml
+* res\menu\draggable_list_view.xml => app\src\main\resources\res\menu\draggable_list_view.xml
+* res\menu\dynamic.xml => app\src\main\resources\res\menu\dynamic.xml
+* res\menu\guidance.xml => app\src\main\resources\res\menu\guidance.xml
+* res\menu\login.xml => app\src\main\resources\res\menu\login.xml
+* res\menu\main.xml => app\src\main\resources\res\menu\main.xml
+* res\menu\messagees.xml => app\src\main\resources\res\menu\messagees.xml
+* res\menu\sliding__main.xml => app\src\main\resources\res\menu\sliding__main.xml
+* res\menu\space_image_detail.xml => app\src\main\resources\res\menu\space_image_detail.xml
+* res\menu\tab.xml => app\src\main\resources\res\menu\tab.xml
+* res\menu\tabhost.xml => app\src\main\resources\res\menu\tabhost.xml
+* res\menu\threadsa.xml => app\src\main\resources\res\menu\threadsa.xml
+* res\menu\threadsb.xml => app\src\main\resources\res\menu\threadsb.xml
+* res\menu\threadsc.xml => app\src\main\resources\res\menu\threadsc.xml
+* res\menu\trands.xml => app\src\main\resources\res\menu\trands.xml
+* res\values-sw600dp\dimens.xml => app\src\main\resources\res\values-sw600dp\dimens.xml
+* res\values-sw720dp-land\dimens.xml => app\src\main\resources\res\values-sw720dp-land\dimens.xml
+* res\values-v11\styles.xml => app\src\main\resources\res\values-v11\styles.xml
+* res\values-v14\styles.xml => app\src\main\resources\res\values-v14\styles.xml
+* res\values\attrs.xml => app\src\main\resources\res\values\attrs.xml
+* res\values\color.xml => app\src\main\resources\res\values\color.xml
+* res\values\dimens.xml => app\src\main\resources\res\values\dimens.xml
+* res\values\strings.xml => app\src\main\resources\res\values\strings.xml
+* res\values\styles.xml => app\src\main\resources\res\values\styles.xml
+* src\ => app\src\main\java\
+* threadaa.JPG => threadaa.jpg
+* threadbb.JPG => threadbb.jpg
+* threadcc.JPG => threadcc.jpg
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

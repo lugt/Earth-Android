@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity" >
+</RelativeLayout>
+ <!--   android:paddingTop="@dimen/activity_vertical_margin"
+
+    <com.earth.fragment.SwipeListView
+        android:id="@+id/list_contact"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#00000000"
+        android:cacheColorHint="#00000000"
+        android:divider="#999999"
+        android:dividerHeight="0.3dp"
+        android:listSelector="#3f004cd0"
+        android:layout_below="@+id/horizontalScrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/horizontalScrollView"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:gravity="center"
+            android:text="EARTH"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#ffffff"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/horizontalScrollView"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_marginBottom="34dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginStart="61dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="98dp"
+            android:layout_weight="0.87"
+            android:background="@drawable/conversation_options_multichat"
+            android:text="私密聊天" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/outgoing"
+            android:text="测试读取联系人" />
+
+        <Button
+            android:id="@+id/btn_add_friend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_msg_1"
+            android:onClick="onClick"
+            android:text="添加联系人" />
+
+        <Button
+            android:id="@+id/btn_del_friend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="删除联系人" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="考勤" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="打开个人主页" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="设置" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </LinearLayout>
+
+</RelativeLayout-->

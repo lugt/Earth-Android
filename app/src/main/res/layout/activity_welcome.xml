@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+	<!--
+    android:background="@drawable/login_background"-->
+
+
+	<TextView
+		android:id="@+id/loginanswer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/textView3"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="12dp"
+		android:text="-"
+		android:textAlignment="center" />
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="欢迎回来"
+		android:textSize="30sp"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true" />
+
+	<LinearLayout
+		android:id="@+id/linear_mod"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:background="@color/ocean_light"
+		android:layout_below="@+id/loginanswer"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_marginTop="18dp">
+
+		<com.earth.define.RoundImageView
+			android:id="@+id/image"
+			android:layout_width="match_parent"
+			android:layout_height="152dp"
+			android:scaleType="fitCenter"
+			android:src="@drawable/qa1"
+            android:background="@color/ocean_light"/>
+
+	</LinearLayout>
+
+
+	<Button
+		android:id="@+id/loginbtn"
+		android:layout_width="fill_parent"
+		android:layout_height="45sp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_marginLeft="100dp"
+		android:layout_marginRight="100dp"
+		android:layout_below="@+id/linear_mod"
+		android:layout_marginTop="34dp"
+		android:background="@color/ocean_light"
+		android:onClick="Login"
+		android:paddingBottom="8dp"
+		android:paddingTop="8dp"
+		android:text="开启"
+		android:textColor="#FFFFFF"
+		android:textSize="18sp" />
+
+	<Button
+		android:id="@+id/btn_cannotlogin"
+	    android:layout_alignParentBottom="true"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_marginLeft="14dp"
+	    android:textSize="14sp"
+	    android:text="无法登录？"
+	    android:background="@android:color/transparent"
+	    android:textColor="@color/newblue"
+	    />
+	
+	<Button
+        android:id="@+id/createuser"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	  	android:layout_marginRight="14dp"
+	    android:textSize="14sp"
+	    android:text="更换账户"
+        android:onClick="ChangeAcc"
+	    android:background="@android:color/transparent"
+	    android:textColor="@color/ocean_light"
+	    />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_cannotlogin"
+        android:layout_alignStart="@+id/btn_cannotlogin"
+        android:layout_below="@+id/linear_mod"
+        android:layout_marginTop="-70dp"
+        android:text="张三"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtEtid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_cannotlogin"
+        android:layout_alignStart="@+id/btn_cannotlogin"
+        android:layout_below="@+id/linear_mod"
+        android:layout_marginTop="-48dp"
+        android:text="15"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

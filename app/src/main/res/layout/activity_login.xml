@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+	<EditText
+		android:id="@+id/name"
+		android:layout_width="250sp"
+		android:layout_height="wrap_content"
+		android:background="@drawable/login_edittext"
+		android:hint="手机号"
+		android:paddingBottom="9dp"
+		android:paddingLeft="14dp"
+		android:paddingTop="9dp"
+		android:textSize="15sp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/linear_mod"
+        android:layout_alignLeft="@+id/loginpassword"
+        android:layout_alignStart="@+id/loginpassword" />
+
+	<EditText
+		android:id="@+id/loginpassword"
+		android:layout_width="250sp"
+		android:layout_height="wrap_content"
+		android:background="@drawable/login_edittext"
+		android:hint="密码"
+		android:paddingBottom="9dp"
+		android:paddingLeft="14dp"
+		android:paddingTop="9dp"
+		android:password="true"
+		android:textSize="15sp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true" />
+
+	<Button
+		android:id="@+id/loginbtn"
+		android:layout_width="250sp"
+		android:layout_height="45sp"
+        android:layout_marginTop="31dp"
+		android:background="@color/ocean_light"
+		android:onClick="Login"
+		android:paddingBottom="8dp"
+		android:paddingTop="8dp"
+		android:text="登录"
+		android:textColor="#FFFFFF"
+		android:textSize="18sp"
+        android:layout_below="@+id/loginpassword"
+        android:layout_alignLeft="@+id/loginpassword"
+        android:layout_alignStart="@+id/loginpassword" />
+
+	<Button
+		android:id="@+id/btn_cannotlogin"
+	    android:layout_alignParentBottom="true"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_marginLeft="14dp"
+	    android:textSize="14sp"
+	    android:text="无法登录？"
+	    android:background="@android:color/transparent"
+	    android:textColor="@drawable/login_bt2"
+	    />
+	
+	<Button
+        android:id="@+id/createuser"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	  	android:layout_marginRight="14dp"
+	    android:textSize="14sp"
+	    android:text="新用户"
+        android:onClick="NewUser"
+	    android:background="@android:color/transparent"
+	    android:textColor="@drawable/login_bt2"
+	    />
+
+	<TextView
+		android:id="@+id/loginanswer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/textView3"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="12dp"
+		android:text="-"
+		android:textAlignment="center" />
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="世界"
+		android:textSize="30sp"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true" />
+
+	<LinearLayout
+        android:id="@+id/linear_mod"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/ocean_light"
+        android:layout_alignTop="@+id/loginanswer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <com.earth.define.RoundImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/qa1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
